@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = my-storage
 ['remote "storage"']
     url = https://drive.google.com/drive/folders/1Huti7zfKP1w0cVRNzO3-IbeOsstznJyq
+['remote "my-storage"']
+    url = s3://my-bucket/dvc-storage
